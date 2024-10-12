@@ -1,5 +1,5 @@
 #include "esphome.h"
-#include "SX127x.h"  // Ensure this library is accessible
+#include <LoRa.h>  // Ensure this library is accessible
 
 class SX127xComponent : public PollingComponent {
 public:
